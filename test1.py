@@ -18,7 +18,7 @@ while a:
 		time=time+datetime.timedelta(hours=5.3)
 		time=time.strftime("%d/%b/%Y  %H:%M:%S")
 		#time=datetime.datetime(time)
-		time=unicode(time)
+		#time=unicode(time)
 		print time
 		dateset= 'date -s +'+time
 		print dateset
