@@ -22,8 +22,8 @@ while a:
 		print time
 		dateset= 'date -s +'+time
 		print dateset
-		subprocess.call(['sudo', 'date', '-s', '{:}'.format(time)], shell=True) #Sets system time (Requires root, obviously)
+		subprocess.call(['sudo', 'date', '-s', '{:}'.format(time)]) #Sets system time (Requires root, obviously)
 		#os.system(dateset)
-		#os.system('date')
+		os.system('date')
 		print "GPS Time Syncronized"
 		a=0
