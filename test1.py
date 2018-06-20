@@ -21,7 +21,7 @@ while a:
 		#time=unicode(time)
 		print time
 		#dateset= 'date -s +'+time
-		print dateset
+		#print dateset
 		subprocess.call(['sudo', 'date', '-s', '{:}'.format(time)]) #Sets system time (Requires root, obviously)
 		#os.system(dateset)
 		os.system('date')
