@@ -11,7 +11,7 @@ time_tuple = ( 2012, # Year
                   0, # Second
                   0, # Millisecond
               )
-settime(time_tuple)              
+             
 def settime(time_tuple):
     import ctypes
     import ctypes.util
@@ -41,3 +41,4 @@ def settime(time_tuple):
 
     # http://linux.die.net/man/3/clock_settime
     librt.clock_settime(CLOCK_REALTIME, ctypes.byref(ts))          
+settime(time_tuple) 
