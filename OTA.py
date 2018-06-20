@@ -1,2 +1,2 @@
 import subprocess
-subprocess.call(['sudo','git','pull])
+subprocess.call(['sudo','git','pull'])
