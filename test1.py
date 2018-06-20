@@ -2,6 +2,8 @@
 
 import os,pynmea2,serial
 import datetime
+import subprocess
+
 port = serial.Serial("/dev/ttyUSB0", baudrate=9600)
 a=1
 while a:
@@ -20,7 +22,8 @@ while a:
 		print time
 		dateset= 'date -s +'+time
 		print dateset
-		os.system(dateset)
+		subprocess.call(['sudo', 'date', '-s', '{:}'.format(time)], shell=True) #Sets system time (Requires root, obviously)
+		#os.system(dateset)
 		#os.system('date')
 		print "GPS Time Syncronized"
 		a=0
