@@ -11,7 +11,7 @@ while a:
 		msg=pynmea2.parse(rcv)
 		print msg
 		time=msg.timestamp
-		print lat
+		print time
 		#os.system('date -s "2 OCT 2006 18:00:00"')
 		#os.system('date')
 		print "GPS Time Syncronized"
