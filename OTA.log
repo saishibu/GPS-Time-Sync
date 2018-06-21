@@ -1,2 +1,2 @@
-Thu 21 Jun 15:25:02 IST 2018
-/home/pi/GPS-Time-Sysc/OTA.py: 1: /home/pi/GPS-Time-Sysc/OTA.py: Syntax error: redirection unexpected
+Thu 21 Jun 15:26:01 IST 2018
+/bin/sh: 1: /home/pi/GPS-Time-Sysc/OTA.py: not found
