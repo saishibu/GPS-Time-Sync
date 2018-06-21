@@ -1,11 +1,2 @@
-Thu 21 Jun 15:23:01 IST 2018
-Traceback (most recent call last):
-  File "/home/pi/GPS-Time-Sysc/OTA.py", line 3, in <module>
-    OTA=subprocess.call(['sudo','git','pull'])
-  File "/usr/lib/python2.7/subprocess.py", line 168, in call
-    return Popen(*popenargs, **kwargs).wait()
-  File "/usr/lib/python2.7/subprocess.py", line 390, in __init__
-    errread, errwrite)
-  File "/usr/lib/python2.7/subprocess.py", line 1024, in _execute_child
-    raise child_exception
-OSError: [Errno 20] Not a directory
+Thu 21 Jun 15:25:02 IST 2018
+/home/pi/GPS-Time-Sysc/OTA.py: 1: /home/pi/GPS-Time-Sysc/OTA.py: Syntax error: redirection unexpected
