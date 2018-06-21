@@ -1,4 +1,4 @@
-Thu 21 Jun 15:22:02 IST 2018
+Thu 21 Jun 15:23:01 IST 2018
 Traceback (most recent call last):
   File "/home/pi/GPS-Time-Sysc/OTA.py", line 3, in <module>
     OTA=subprocess.call(['sudo','git','pull'])
